@@ -15,6 +15,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #import "EMHint.h"
 
+#if __has_feature(objc_arc)
+#error This file cannot be compiled with ARC. Either turn off ARC for the project or use -fno-objc-arc flag
+#endif
+
 @implementation EMHint
 @synthesize hintDelegate;
 

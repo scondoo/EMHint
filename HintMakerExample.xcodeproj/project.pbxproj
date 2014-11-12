@@ -122,6 +122,7 @@
 				A11F3B331513E82C00EE2AAD /* EMHintsView.h */,
 			);
 			name = EMHint;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
